@@ -2,8 +2,8 @@ import { NavbarContainer, NavbarImage, NavbarLocationSection, NavbarMidSection }
 import { Logo } from '../../assets'
 import { Box, Button } from '@mui/material';
 
-import SettingsIcon from '@mui/icons-material/Settings';
-import FmdGoodIcon from '@mui/icons-material/FmdGood';
+import SettingsIcon from '@mui/icons-material/SettingsOutlined';
+import FmdGoodIcon from '@mui/icons-material/FmdGoodOutlined';
 
 const Navbar = () => {
   return (

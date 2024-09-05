@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import { Navbar } from './components'
+import { Homepage } from './page'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/' element={<></>} />
+        <Route path='/' element={<Homepage />} />
       </Routes>
     </>
   )

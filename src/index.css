@@ -61,3 +61,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.MuiTypography-root {
+  font-family: var(--main-font-bold);
+}
