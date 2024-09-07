@@ -1,19 +1,19 @@
 import React from 'react'
 import { VehicleDetailsContainer } from './vehicleDetails.styles'
-import { Lexus } from '../../assets'
+import { Lexus, Mazda, Mercedes, Toyota } from '../../assets'
 import { Box, Typography } from '@mui/material'
+import ServicesSection from './ServicesSection'
 
 const VehicleDetailSection = () => {
   return (
     <VehicleDetailsContainer
         style={{
             background: `url(${Lexus})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'top center',
+            backgroundSize: '80%',
+            backgroundPosition: 'center left',
             backgroundRepeat: 'no-repeat',
             minHeight: '800px',
-            flex: 1,
-            maxWidth: '1300px'
+            flex: 1
         }}
     >
         <Box
@@ -57,6 +57,8 @@ const VehicleDetailSection = () => {
                 Healthy
             </Typography>
         </Box>
+
+        <ServicesSection />
 
         
     </VehicleDetailsContainer>
