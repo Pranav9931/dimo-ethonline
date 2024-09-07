@@ -8,7 +8,7 @@ const ServicesSection = () => {
   return (
     <ServicesSectionContainer>
         <ServiceContainerPrimary>
-        <Typography sx={{
+            <Typography sx={{
                 fontFamily: 'var(--main-font-med)',
                 fontSize: '16px',
                 marginBottom: '10px',

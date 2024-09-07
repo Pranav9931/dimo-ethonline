@@ -17,7 +17,7 @@ const Navbar = () => {
       <NavbarMidSection>
         <Button
           sx={{
-            background: '#00000020',
+            background: '#E1E1E1',
             color: '#000000',
             padding: '15px 20px',
             borderRadius: '20px',
