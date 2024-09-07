@@ -5,7 +5,6 @@ export const ServicesSectionContainer = styled.div`
     flex-direction: column;
     gap: 5px;
     align-self: flex-start;
-    
 `
 
 export const ServiceContainerPrimary = styled.div`
@@ -15,7 +14,6 @@ export const ServiceContainerPrimary = styled.div`
     border-radius: 20px;
     border: 1px solid rgba(209, 213, 219, 0.3);
     min-width: 400px;
-    min-height: 200px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
     padding: 30px 20px;
 `

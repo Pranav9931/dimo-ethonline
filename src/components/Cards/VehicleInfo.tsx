@@ -127,7 +127,7 @@ const VehicleInfoCard = () => {
               fontFamily: 'var(--main-font-med)',
               fontSize: '12px'
           }}>
-              MK
+              KM
           </Typography>
       </VehicleInfoCardContent>
 
@@ -136,7 +136,7 @@ const VehicleInfoCard = () => {
               fontFamily: 'var(--main-font-med)',
               fontSize: '12px'
           }}>
-              SPEED
+              LATITUDE
           </Typography>
           <Typography sx={{
               fontFamily: 'var(--main-font-bold)',
